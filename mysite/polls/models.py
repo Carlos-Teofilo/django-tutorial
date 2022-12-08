@@ -1,7 +1,7 @@
+import datetime
+
 from django.db import models
 from django.utils import timezone
-
-import datetime
 
 
 class Question(models.Model):
@@ -22,4 +22,3 @@ class Choice(models.Model):
 
     def __str__(self):
         return self.choice_text
-
